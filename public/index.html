@@ -7,6 +7,15 @@
     <title>Chat App</title>
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LNG16XXYH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2LNG16XXYH');
+    </script>
 </head>
 
 <body>
@@ -15,10 +24,11 @@
             <h1>join</h1>
             <form action="./chat.html">
                 <label for="">Display name</label>
-                <input type="text" name="username" id="" placeholder='Display name' autofocus autocomplete="off" required>
+                <input type="text" name="username" id="" placeholder='Display name' autofocus autocomplete="off"
+                    required>
                 <label for="">Room</label>
                 <input type="text" name="room" id="" placeholder="Room" required autocomplete="off">
-                <button>join</button> 
+                <button>join</button>
             </form>
         </div>
     </div>
